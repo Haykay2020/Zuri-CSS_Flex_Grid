@@ -29,13 +29,13 @@ body {
     flex-direction: column;
 }
 
-.app__header {
+.header-app {
     margin-top: 20px;
     border-radius: 15px 15px 15px 15px;
     background: black;
 }
 
-.app__header a {
+.header-app a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,51 +46,51 @@ body {
     padding: 0.5rem 1rem;
 }
 
-.app__container {
+.container_1 {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.app__container-wrapper {
+.container_1-wrapper {
     display: flex;
     border-radius: 12px;
     margin: 2rem;
     overflow: hidden;
 }
 
-.app__container-box {
+.container_1-box {
     padding: 40px;
 }
 
-.app__container-box1 {
+.container_1-box1 {
     flex: 1;
     background-color: var(--bright-orange);
 }
 
-.app__container-box2 {
+.container_1-box2 {
     flex: 1;
     background-color: var(--dark-cyan);
 }
 
-.app__container-box3 {
+.container_1-box3 {
     flex: 1;
     background-color: var(--very_dark-cyan);
 }
 
-.app__container-box h2 {
+.container_1-box h2 {
     font-size: 30px;
     font-family: "Big Shoulders Display", cursive;
     text-transform: uppercase;
     color: var(--transparent-white);
 }
 
-.app__container-box p {
+.container_1-box p {
     font-family: "Lexend Deca", sans-serif;
     color: var(--transparent-white);
     line-height: 1.6;
 }
 
-.app__container-box a {
+.container_1-box a {
     display: inline-block;
     background-color: var(--transparent-white);
     padding: 13px 27px;
@@ -101,31 +101,31 @@ body {
     transition: all 0.4s ease-in-out;
 }
 
-.app__container-box1 a {
+.container_1-box1 a {
     color: var(--bright-orange);
 }
 
-.app__container-box2 a {
+.container_1-box2 a {
     color: var(--dark-cyan);
 }
 
-.app__container-box3 a {
+.container_1-box3 a {
     color: var(--very_dark-cyan);
 }
 
-.app__container-box a:hover {
+.container_1-box a:hover {
     color: var(--transparent-white);
     background: transparent;
 }
 
 @media only screen and (max-width: 768px) {
-    .app__container-wrapper {
+    .container_1-wrapper {
         flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 425px) {
-    .app__container-wrapper {
+    .container_1-wrapper {
         margin: 2rem 0.5rem;
     }
 }
